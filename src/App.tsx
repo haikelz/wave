@@ -5,7 +5,7 @@ import Works from './components/Works';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-export default function App() {
+const App = () => {
   return (
     <>
     <Router>
@@ -20,3 +20,5 @@ export default function App() {
     </>
   )
 }
+
+export default App;
